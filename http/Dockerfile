@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir -p /projects/docker_ws
 COPY ./sources /projects/docker_ws
+WORKDIR /projects/docker_ws
+RUN npm install --production
 
 RUN mkdir /docker_ws
 

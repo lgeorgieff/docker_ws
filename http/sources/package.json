@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "BSD-3-Clause",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "mongodb": "^3.1.0-beta4"
+  }
 }
